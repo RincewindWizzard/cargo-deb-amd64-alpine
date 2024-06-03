@@ -9,5 +9,6 @@ set -eux
 
 # go to the repo root
 cd $GITHUB_WORKSPACE
+export PATH="$PATH:/usr/local/cargo/bin"
 /usr/local/bin/cargo-deb
 chmod 0777 ./target
