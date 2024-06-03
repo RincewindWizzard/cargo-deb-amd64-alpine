@@ -4,13 +4,6 @@ description: 'Builds a statically linked .deb package, amd64, musl, ubuntu'
 branding:
   icon: 'package'
   color: 'orange'
-inputs:
-  cmd:
-    description: 'build command'
-    required: true
-    default: 'cargo deb --target=x86_64-unknown-linux-musl'
 runs:
   using: 'docker'
   image: 'docker://rincewindwizzard/cargo-deb-amd64-alpine:latest'
-  args:
-    - ${{ inputs.cmd }}
