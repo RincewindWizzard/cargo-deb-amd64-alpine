@@ -2,6 +2,8 @@
 
 Provides a build environment for executing `cargo deb` [1] and producing statically linked binaries for the built Debian (`.deb`) package.
 
+Modified by RincewindWizzard to use alpine linux with compact image size.
+
 [1] Cargo Deb provided by mmstick
 - https://github.com/mmstick/cargo-deb
 - https://crates.io/crates/cargo-deb
