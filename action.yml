@@ -6,4 +6,4 @@ branding:
   color: 'orange'
 runs:
   using: 'docker'
-  image: 'docker://rincewindwizzard/cargo-deb-amd64-alpine:latest'
+  image: 'docker://rincewindwizzard/cargo-deb-amd64-alpine:v3'
