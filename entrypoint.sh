@@ -9,6 +9,5 @@ set -eux
 
 # go to the repo root
 cd $GITHUB_WORKSPACE
-#sh -c "$*"
-cargo deb
+sh -c "$*"
 chmod 0777 ./target
